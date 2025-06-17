@@ -1,6 +1,6 @@
 export async function GET() {
     const body = {
-        message: "Hello World"
+        database_url: process.env.DATABASE_URL
     }
     const status = {
         status: 200,
